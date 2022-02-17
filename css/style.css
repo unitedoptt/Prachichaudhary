@@ -712,6 +712,18 @@ to {
 	line-height:1.8;
 	color:#d9d9d9;
 }
+
+.utf-about-dtl ul{
+	 list-style: none;
+}
+.utf-about-dtl ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
 /* Box Stats */
 
 .about .utf-box-stats {
